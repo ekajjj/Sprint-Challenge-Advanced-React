@@ -1,9 +1,9 @@
 import React from 'react';
 import Data from "./components/Data";
+import Navbar from './components/Navbar';
 import './App.css';
 import styled from "styled-components";
 
-import Toggle from "./hooks/Toggle";
 //hooks
 
 const ToggleMode = styled.p `
@@ -24,8 +24,7 @@ class App extends React.Component {
   return (
     <div className="App">
       <div className="toggleBox">
-        <ToggleMode>Dark Mode</ToggleMode>
-        <Toggle />
+        <Navbar />
         </div>
         <Data 
             things={this.state.things}
