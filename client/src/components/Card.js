@@ -4,14 +4,12 @@ import styled from "styled-components";
 //styled components
 
 const Box = styled.div `
-    border: pink 4px solid;
     width: 60%;
     border-radius: 20px;
     margin: 0 auto;
 `
 
 const Player = styled.div `
-    border: 4px solid teal;
     border-radius: 20px;
     background: grey;
     width: 20%;
