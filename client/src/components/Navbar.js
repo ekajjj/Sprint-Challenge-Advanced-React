@@ -7,6 +7,7 @@ const Navbar = () => {
 
   const [darkMode, setDarkMode] = useDarkMode(false);
   const toggleMode = e => {
+    console.log('dark mode', darkMode)
     e.preventDefault();
     setDarkMode(!darkMode);
   };
