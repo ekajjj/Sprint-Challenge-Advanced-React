@@ -6,11 +6,6 @@ import styled from "styled-components";
 
 //hooks
 
-const ToggleMode = styled.p `
-    border: solid 1px green;
-    width: 50px;
-`
-
 class App extends React.Component {
   constructor() {
     super();

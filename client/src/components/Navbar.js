@@ -13,11 +13,10 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="dark-mode__toggle">
-        <div
-          onClick={toggleMode}
-          className={darkMode ? 'toggle toggled' : 'toggle'}
-        />
-        Toggle
+        <button onClick={toggleMode} className={darkMode ? 'toggle toggled' : 'toggle'}
+        >
+   Toggle
+    </button>
       </div>
     </nav>
   );
